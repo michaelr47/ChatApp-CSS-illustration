@@ -45,8 +45,29 @@ These two colors are the vibrant background colors you see throughout the design
 - Family: [Rubik](https://fonts.google.com/specimen/Rubik)
 - Weights: 400, 500, 700 */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root {
+    --paleViolet-subHeadingText: hsl(276, 100%, 81%);
+    --moderateViolet-leftText: hsl(276, 55%, 52%);
+    --desatDarkViolet-rightText: hsl(271, 15%, 43%);
+    --grayishBlue-placeholderText: hsl(206, 6%, 79%);
+    --veryDarkDesatViolet-Heading: hsl(271, 36%, 24%);
+    --darkGrayishViolet-para: hsl(270, 7%, 64%);
+    --white: hsl(0, 0%, 100%);
+    --grayish-appBG: hsl(270, 20%, 96%);
+    --submitButton-BG: hsl(271, 36%, 24%);
+    --magenta-radioOutline: hsl(289, 100%, 72%);
+}
 
+body {
+    font-family: 'Rubik', sans-serif;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.mainGradient {
+    background-image: linear-gradient(hsl(293, 100%, 63%) to hsl(264, 100%, 61%));
+}
