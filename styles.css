@@ -71,3 +71,24 @@ body {
 .mainGradient {
     background-image: linear-gradient(hsl(293, 100%, 63%) to hsl(264, 100%, 61%));
 }
+
+.positionAbs {
+    position: absolute;
+    z-index: -1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.gradientShape-bg {
+    height: 55%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
