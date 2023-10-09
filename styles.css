@@ -70,7 +70,7 @@ body {
 }
 
 .mainGradient {
-    background-image: linear-gradient(hsl(293, 100%, 63%) to hsl(264, 100%, 61%));
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
 }
 
 .positionAbs {
@@ -91,7 +91,6 @@ main {
     width: 80%;
     top: 0;
     left: 0;
-    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
     margin-left: -30%;
@@ -103,11 +102,25 @@ main {
     width: 80%;
     bottom: 0;
     right: 0;
-    background: var(--grayish-appBG); /* fix grayish-app-bg */
+    background: var(--grayish-appBG);
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     margin-right: -30%;
 
+}
+
+.phoneContainer {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 250px;
+    height: 500px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.phoneContent {
+    position: relative;
 }
 
 
@@ -122,8 +135,6 @@ main {
         height: 80%;
         width: 65%;
         margin-right: -25%;
-    
-
     }
 }
 
