@@ -123,7 +123,21 @@ main {
     position: relative;
 }
 
+.phone-subHeadingLeftSide {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
 
+.nameAndStatusCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileImage {
+    border: 1px solid white;
+    border-radius: 50%;
+}
 @media screen and (min-width: 576px) {
     .gradientShape-bg {
         height: 80%;
