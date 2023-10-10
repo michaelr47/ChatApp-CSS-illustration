@@ -131,14 +131,16 @@ main {
 .phone-subHeading {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 50px;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .phone-subHeadingLeftSide {
     display: flex;
     align-items: center;
-    margin-right: auto;
+    /* margin-right: auto; */
     color: white;
 }
 
