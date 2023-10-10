@@ -115,20 +115,34 @@ main {
     padding: 10px;
     width: 250px;
     height: 500px;
-    background-color: black;
+    background-color: var(--white);
     border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 
 .phoneContent {
     position: relative;
+    border: 1px solid white;
+    background-color: var(--grayish-appBG);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.phone-subHeading {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
 }
 
 .phone-subHeadingLeftSide {
     display: flex;
     align-items: center;
     margin-right: auto;
+    color: white;
 }
 
+.availabilityStatus-subHeading { font-size: 8px; }
 .nameAndStatusCont {
     display: flex;
     flex-direction: column;
