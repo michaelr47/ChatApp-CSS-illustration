@@ -126,6 +126,8 @@ main {
     background-color: var(--grayish-appBG);
     height: 100%;
     border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .phone-subHeading {
@@ -139,6 +141,17 @@ main {
     padding: 5px 10px;
 }
 
+.whiteMidTop {
+    height: 25px; 
+    width: 125px;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    z-index: 1;
+    background-color: var(--white);
+    border-radius: 15px;
+}
+
 .phone-subHeadingLeftSide {
     display: flex;
     justify-content: space-around;
@@ -148,7 +161,7 @@ main {
     color: white;
 }
 .profileImageCont, .backArrowCont, .threeDots { display: flex; align-items: center;}
-.availabilityStatus-subHeading { font-size: 8px; }
+.availabilityStatus-subHeading { font-size: 8px; color: rgb(234, 234, 234);}
 .nameAndStatusCont {
     display: flex;
     flex-direction: column;
