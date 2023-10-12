@@ -110,8 +110,8 @@ main {
 }
 
 .phoneContainer {
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     padding: 10px;
     width: 250px;
     height: 500px;
@@ -134,11 +134,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
+    height: 65px;
     border-radius: 5px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     padding: 5px 10px;
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
 }
 
 .whiteMidTop {
@@ -156,12 +157,14 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 10px;
     margin-right: 70px;
     width: 75%;
     color: white;
 }
-.profileImageCont, .backArrowCont, .threeDots { display: flex; align-items: center;}
+.profileImageCont, .backArrowCont, .threeDots { display: flex; align-items: center; margin-top: 10px;}
 .availabilityStatus-subHeading { font-size: 8px; color: rgb(234, 234, 234);}
+
 .nameAndStatusCont {
     display: flex;
     flex-direction: column;
@@ -170,6 +173,26 @@ main {
 .profileImage {
     border: 1px solid white;
     border-radius: 50%;
+}
+
+
+.headingWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    width: 300px;
+}
+
+h1 {
+    font-weight: 500;
+    color: var(--veryDarkDesatViolet-Heading);
+    margin: 16px 0px;
+}
+
+.description {
+    color: var(--darkGrayishViolet-para);
+    line-height: 1.5rem;
 }
 @media screen and (min-width: 576px) {
     .gradientShape-bg {
@@ -197,4 +220,15 @@ main {
         width: 45%;
         margin-right: -20%;
     }
+
+    main {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .phoneContainer { margin-right: 5rem; }
+    .headingWrapper {
+        width: 500px;
+        text-align: left;
+    }
+    
 }
