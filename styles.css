@@ -176,12 +176,17 @@ main {
 }
 
 .messagesContainer {
+    padding: 10px;
     font-size: 10px;
 }
 
 .messages {
     padding: 10px;
-    background-color: var(--darkGrayishViolet-para);
+    background-color: #EDE5F4;
+    border-radius: 10px;
+    margin: 10px 0px;
+    
+     
 }
 .dogImages {
     width: 35px;
