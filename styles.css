@@ -175,7 +175,21 @@ main {
     border-radius: 50%;
 }
 
+.messagesContainer {
+    font-size: 10px;
+}
 
+.messages {
+    padding: 10px;
+    background-color: var(--darkGrayishViolet-para);
+}
+.dogImages {
+    width: 35px;
+    border-radius: 10px;
+}
+
+
+/* heading */
 .headingWrapper {
     display: flex;
     flex-direction: column;
@@ -196,10 +210,6 @@ h1 {
 }
 
 
-.dogImages {
-    width: 35px;
-    border-radius: 10px;
-}
 @media screen and (min-width: 576px) {
     .gradientShape-bg {
         height: 80%;
