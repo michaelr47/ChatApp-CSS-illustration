@@ -192,12 +192,25 @@ main {
      
 }
 
-/* .dogImagesCont {
+.messagesSent {
     position: absolute;
+    right: 5px;
+    padding: 7px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: var(--white);
+}
 
-} */
+.dogImagesCont {
+    position: absolute;
+    top: 115px;
+    right: 5px;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
 .dogImages {
-    width: 35px;
+    width: 40px;
     border-radius: 10px;
 }
 
