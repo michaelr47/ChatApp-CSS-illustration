@@ -177,7 +177,7 @@ main {
 
 .messagesContainer {
     padding: 10px;
-    font-size: 8.5px;
+    font-size: 9px;
     position: relative;
 }
 
@@ -189,7 +189,6 @@ main {
     position: absolute;
     width: 55%;
     color: var(--moderateViolet-leftText);
-     
 }
 
 .messagesSent {
@@ -199,6 +198,7 @@ main {
     border-radius: 10px;
     width: 50%;
     background-color: var(--white);
+    
 }
 
 .dogImagesCont {
@@ -214,6 +214,28 @@ main {
     border-radius: 10px;
 }
 
+/* input radios */
+.radioPricingGradient {
+    height: 35px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    padding: 10px;
+    font-weight: 100;
+}
+
+.toLeft { 
+    margin-right: auto;
+    display: flex;
+    align-items: center; 
+}
+
+.toRightPrice {
+    font-weight: 700;
+    font-size: 13px;
+}
 
 /* heading */
 .headingWrapper {

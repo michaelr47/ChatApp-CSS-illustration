@@ -1,132 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/989dcd78de.js" crossorigin="anonymous"></script>
-  <title>Chat app CSS Illustration</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/989dcd78de.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chat app CSS Illustration</title>
+  </head>
+  <body>
+    <div class="gradientShape-bg mainGradient positionAbs"></div>
 
-<div class="gradientShape-bg mainGradient positionAbs"></div>
+    <main>
+      <div class="phoneContainer">
+        <div class="phoneContent">
+          <div class="whiteMidTop"></div>
+          <div class="phone-subHeading">
+            <div class="phone-subHeadingLeftSide">
+              <div class="backArrowCont">
+                <i
+                  class="fa-solid fa-chevron-left fa-xs"
+                  style="color: #ffffff"
+                ></i>
+              </div>
+              <div class="profileImageCont">
+                <img
+                  class="profileImage"
+                  src="./images/avatar.jpg"
+                  alt="Profile picture"
+                  width="25"
+                />
+              </div>
+              <div class="nameAndStatusCont">
+                <h5
+                  class="name-subHeading"
+                  style="font-weight: 500; font-size: 11px; margin: 5px 0px"
+                >
+                  Samuel Green
+                </h5>
 
-<main>
-  <div class="phoneContainer">
-    <div class="phoneContent">
-      <div class="whiteMidTop"></div>
-      <div class="phone-subHeading">
-        <div class="phone-subHeadingLeftSide">
-          <div class="backArrowCont">
-            <i class="fa-solid fa-chevron-left fa-xs" style="color: #ffffff;"></i>
-          </div>
-          <div class="profileImageCont">
-            <img class="profileImage" src="./images/avatar.jpg" alt="Profile picture" width="25">
-          </div>
-          <div class="nameAndStatusCont">
-            <h5 class="name-subHeading" style="font-weight: 500; font-size: 11px; margin: 5px 0px">
-              Samuel Green
-            </h5>
-            
-            <span class="availabilityStatus-subHeading">
-              Available to Walk
-            </span>
-          </div>
-        </div>
+                <span class="availabilityStatus-subHeading">
+                  Available to Walk
+                </span>
+              </div>
+            </div>
 
-        <div class="threeDots">
-            <i class="fa-solid fa-ellipsis-vertical fa-2xs" style="color: #ffffff;"></i>
+            <div class="threeDots">
+              <i
+                class="fa-solid fa-ellipsis-vertical fa-2xs"
+                style="color: #ffffff"
+              ></i>
+            </div>
+          </div>
+
+          <div class="messagesContainer">
+            <div class="messagesReceived" style="top: 5px">
+              <p>That sounds great. I’d be happy with that.</p>
+            </div>
+
+            <div class="messagesReceived" style="top: 50px">
+              <p>Could you send over some pictures of your dog, please?</p>
+            </div>
+
+            <div class="dogImagesCont">
+              <img
+                class="dogImages"
+                src="./images/dog-image-1.jpg"
+                alt="dog looking up"
+              />
+              <img
+                class="dogImages"
+                src="./images/dog-image-2.jpg"
+                alt="dog posing for the camera"
+              />
+              <img
+                class="dogImages"
+                src="./images/dog-image-3.jpg"
+                alt="dog with stick in mouth"
+              />
+            </div>
+            <div class="messagesSent" style="top: 160px">
+              <p>Here are a few pictures. She’s a happy girl!</p>
+            </div>
+
+            <div class="messagesSent" style="top: 200px; width: 40%">
+              <p>Can you make it?</p>
+            </div>
+
+            <div class="messagesReceived" style="top: 220px">
+              <p>
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+            </div>
+
+            <div
+              class="messagesReceived radioPricingGradient"
+              style="top: 282px"
+            >
+              <div class="toLeft">
+                <input type="radio" id="thirty" />
+                <span> 30 minute walk </span>
+              </div>
+              <span class="toRightPrice">$29</span>
+            </div>
+
+            <div
+              class="messagesReceived radioPricingGradient"
+              style="top: 320px"
+            >
+              <div class="toLeft">
+                <input type="radio" id="oneHour" />
+                <span>1 hour walk</span>
+              </div>
+              <span class="toRightPrice">$49</span>
+            </div>
+
+            <div style="position: absolute; top: 380px">
+              <input
+                type="text"
+                id="messageInput"
+                placeholder="Type a message…"
+              />
+              <i class="fa-solid fa-chevron-right fa-2xs" style="color: #ffffff;"></i>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="messagesContainer">
-        <div class="messagesReceived" style="
-            top: 5px;
-
-          ">
-          <p>
-            That sounds great. I’d be happy with that.
-          </p>
-        </div>
-
-        <div class="messagesReceived" style="
-          top: 50px;
-        
-        ">
-          <p>
-            Could you send over some pictures of your dog, please?
-          </p>
-        </div>
-
-        <div class="dogImagesCont">
-          <img class="dogImages" src="./images/dog-image-1.jpg" alt="dog looking up">
-          <img class="dogImages" src="./images/dog-image-2.jpg" alt="dog posing for the camera">
-          <img class="dogImages" src="./images/dog-image-3.jpg" alt="dog with stick in mouth">
-        </div>
-        <div class="messagesSent" style="
-          top: 160px;
-        ">
-          <p>
-            Here are a few pictures. She’s a happy girl!
-          </p>
-        </div>
-
-        <div class="messagesSent" style="
-          top: 200px;
-        ">
-          <p>
-            Can you make it?
-          </p>
-        </div>
-
-        <div class="messagesReceived" style="
-          top: 225px;
-        ">
-          <p>
-            She looks so happy! The time we discussed works. How long shall I take her out for?
-          </p>
-        </div>
-      
-        <div class="messagesReceived" style="
-          top: 290px;
-        ">
-          <input type="radio" name="" id="">
-          <span>
-            30 minute walk
-          </span>
-          <span>$29</span>
-        </div>
-
-        <div class="messagesReceived" style="
-          top: 325px;
-        ">
-          <input type="radio" name="" id="">
-          <span>1 hour walk</span>
-          <span>$49</span>
-        </div>
-      
-        <div class="messagesReceived" style="
-          top: 360px;
-        ">
-          <input type="text" id="messageInput" placeholder="Type a message…">
-        </div>
-
+      <div class="headingWrapper">
+        <h1 id="mainHeading">Simple booking</h1>
+        <p class="description">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
       </div>
-      <!-- <i class="fa-solid fa-chevron-right fa-2xs" style="color: #ffffff;"></i> -->
-    </div>
-  </div>
-
-  <div class="headingWrapper">
-    <h1 id="mainHeading">Simple booking</h1>
-    <p class="description">
-      Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
-    </p>
-  </div>
-</main>
-<div class="light-shape-bg positionAbs"></div>
-</body>
+    </main>
+    <div class="light-shape-bg positionAbs"></div>
+  </body>
 </html>
