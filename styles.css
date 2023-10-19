@@ -59,7 +59,7 @@ These two colors are the vibrant background colors you see throughout the design
     --veryDarkDesatViolet-Heading: hsl(271, 36%, 24%);
     --darkGrayishViolet-para: hsl(270, 7%, 64%);
     --white: hsl(0, 0%, 100%);
-    --grayish-appBG: hsl(270, 20%, 96%);
+    --grayish-appBG: hsl(260, 20%, 97%);
     --submitButton-BG: hsl(271, 36%, 24%);
     --magenta-radioOutline: hsl(289, 100%, 72%);
 }
@@ -110,8 +110,6 @@ main {
 }
 
 .phoneContainer {
-    /* margin-left: auto;
-    margin-right: auto; */
     padding: 10px;
     min-width: 250px;
     height: 500px;
@@ -245,10 +243,11 @@ main {
     justify-content: space-evenly;
     align-items: center;
     border-radius: 20px;
+    
 
 }
 .circle {
-    margin-right: auto;
+    margin: 2px 0px;
     background-color: var(--veryDarkDesatViolet-Heading);
     width: 35px;
     height: 30px;
@@ -256,6 +255,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 #messageInput {
@@ -315,7 +315,7 @@ h1 {
 @media screen and (min-width: 768px) {
     .gradientShape-bg {
         height: 85%;
-        width: 40%;
+        max-width: 40%;
         margin-left: -10%;
     
     }
@@ -327,12 +327,25 @@ h1 {
 
     main {
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
     }
-    .phoneContainer { margin-right: 5rem; }
+
+    .phoneContainer { margin-right: 5rem;
+    margin-left: 5rem; }
     .headingWrapper {
         width: 500px;
         text-align: left;
+        margin-right: 2rem;
     }
     
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        justify-content: center;
+    }
+
+    /* .phoneContainer {
+        margin-left: ;
+    } */
 }
