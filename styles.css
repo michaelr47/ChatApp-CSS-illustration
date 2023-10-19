@@ -240,37 +240,42 @@ main {
 .sendMessageInput {
     background-color: white;
     width: 90%;
-    padding: 1px 5px;
+    padding: 0px 5px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 20px;
-    /* background-image: url('./images/chevron-right-solid.svg');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    z-index: 1; */
+
 }
 .circle {
     margin-right: auto;
     background-color: var(--veryDarkDesatViolet-Heading);
     width: 35px;
     height: 30px;
-    /* z-index: 1; */
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #messageInput {
     border: none;
-    height: 100%;
     width: 90%;
     padding: 5px;
     margin-right: auto;
     border-radius: 20px;
+    outline: none;
 }
 #messageInput::placeholder {
     font-size: 10px;
     color: var(--grayishBlue-placeholderText);
+}
+
+.bottomLeftRadius {
+    border-bottom-left-radius: 5px;
+}
+.bottomRightRadius {
+    border-bottom-right-radius: 5px;
 }
 /* heading */
 .headingWrapper {
