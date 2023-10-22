@@ -300,27 +300,27 @@ h1 {
 
 @media screen and (min-width: 576px) {
     .gradientShape-bg {
-        height: 80%;
+        height: 60%;
         width: 65%;
         margin-left: -25%;
     
     }
     .light-shape-bg {
-        height: 80%;
+        height: 60%;
         width: 65%;
-        margin-right: -25%;
+        margin-right: -30%;
     }
 }
 
 @media screen and (min-width: 768px) {
     .gradientShape-bg {
-        height: 85%;
+        height: 70%;
         width: 50%;
         margin-left: -10%;
     
     }
     .light-shape-bg {
-        height: 90%;
+        height: 80%;
         width: 45%;
         margin-right: -20%;
     }
@@ -346,6 +346,7 @@ h1 {
     }
 
     .gradientShape-bg {
+        height: 85%;
         width: 40%;
         margin-left: -15%;
     }
