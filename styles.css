@@ -226,7 +226,8 @@ main {
 /* radios */
 #thirty, #oneHour {
     margin-right: 10px;
-    border-color: transparent !important;
+    mix-blend-mode: multiply; 
+
 }
 
 .toLeft { 
