@@ -223,6 +223,11 @@ main {
     padding: 10px;
     font-weight: 100;
 }
+/* radios */
+#thirty, #oneHour {
+    margin-right: 10px;
+    border-color: transparent !important;
+}
 
 .toLeft { 
     margin-right: auto;
