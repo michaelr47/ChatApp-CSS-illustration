@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/desktopChatApp.png)
-![](./images/MobileChatApp.png)
+![](./images/desktop-ChatApp.png)
+![](./images/mobile-ChatApp.png)
 
 
 ### Links
