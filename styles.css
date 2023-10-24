@@ -116,6 +116,7 @@ main {
     background-color: var(--white);
     border-radius: 20px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    animation: .5s linear 0s bottomToTop;
 }
 
 .phoneContent {
@@ -293,6 +294,7 @@ main {
     text-align: center;
     padding: 1rem;
     width: 300px;
+    animation: 1s ease-in 0s slideIn;
 }
 
 h1 {
@@ -363,3 +365,28 @@ h1 {
         margin-left: 6rem;
     }
 }
+
+
+@keyframes slideIn {
+    from {
+      transform: translateX(-10%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes bottomToTop {
+    from {
+        transform: translateY(15%);
+        opacity: 0;
+    } 
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+  }
