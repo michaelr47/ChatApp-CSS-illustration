@@ -225,9 +225,12 @@ main {
 }
 /* radios */
 #thirty, #oneHour {
+    width: 12px; 
+    height: 12px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid rgba(251, 251, 251, .5);
     margin-right: 10px;
-    mix-blend-mode: multiply; 
-
 }
 
 .toLeft { 
